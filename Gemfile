@@ -51,6 +51,9 @@ gem 'figaro', '~> 1.1.1'
 
 # Use paperclip for image uploads
 gem 'paperclip', '~> 4.3.0'
+
+# Use Amazon S3 for image storage
+gem 'aws-sdk', '< 2'
   
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
